@@ -11,28 +11,29 @@
         }
 */
 
-body {
-    box-sizing: border-box;
-    /*  color:#373737;*/
-    /*  background: #212121;*/
-    /*  font-size: 16px;*/
-    /*  font-family: 'DFKai-sb', Calibri, Helvetica, Arial, sans-serif;*/
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-}
 
-h1,h2,h3,h4,h5,h6 {
+h0,h1,h2,h3,h4,h5,h6 {
     margin: 10px 0;
-    font-weight: 900;
+    font-weight: 50;
     color: #222222;
     font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+h0 {
+    font-size: 70px;
+    font-weight: 900;
+    font-stretch:;
+/*    padding-bottom: 10px;*/
+    font-family: sans-serif
+    
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 40px;
     font-weight: 900;
     font-stretch:;
+/*    padding-bottom: 10px;*/
     font-family: sans-serif
     
 }
@@ -63,7 +64,8 @@ p {
     margin: 10px 0 15px 0;
 }
 
-</style> <style type="text/css" data-reactid=".0.0.$theme_colors"> 
+</style> 
+<style type="text/css" data-reactid=".0.0.$theme_colors"> 
 
 .color_1 {
     color: #FFFFFF;
@@ -116,3 +118,16 @@ p {
     color: #4D121D;
 }
 </style>
+
+
+/*背景圖*/
+/*<style type="text/css">*/
+/*#T1{*/
+　background-image:url(http://i.imgur.com/hYlxIsx.jpg);
+　background-repeat:no-repeat;
+　width:2000px;
+　height:200px;
+　border:1px #ccc solid;
+　margin-top:10px;
+}
+/*</style>*/
