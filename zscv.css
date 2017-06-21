@@ -21,16 +21,18 @@ h0,h1,h2,h3,h4,h5,h6 {
 }
 
 h0 {
-    font-size: 70px;
+    font-size: 36px;
     font-weight: 900;
     font-stretch:;
+    letter-spacing: normal;
+    line-height: normal;
 /*    padding-bottom: 10px;*/
     font-family: sans-serif
     
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 900;
     font-stretch:;
 /*    padding-bottom: 10px;*/
@@ -40,24 +42,33 @@ h1 {
 
 h2 {
     padding-bottom: 10px;
-    font-size: 32px;
+    font-size: 14px;
 }
 
 h3 {
-    font-size: 24px;
-    color: firebrick
+    padding-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: normal;
+    line-height: 30px;
+/*    color: firebrick*/
 }
 
 h4 {
-    font-size: 21px;
+    font-size: 10px;
+    letter-spacing: normal;
+    line-height: 20px;
 }
 
 h5 {
-    font-size: 18px;
+    font-size: 9px;
+    letter-spacing: normal;
+    line-height: 20px;
 }
 
 h6 {
-    font-size: 16px;
+    font-size: 8px;
+    letter-spacing: normal;
+    line-height: 20px;
 }
 
 p {
